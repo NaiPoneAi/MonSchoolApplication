@@ -9,9 +9,11 @@ import javafx.scene.control.MenuItem;
 import net.rgielen.fxweaver.core.FxmlView;
 import org.monedu.Main;
 import org.monedu.view.ResourceBundleUtil;
+import org.monedu.view.main.help.HelpPane;
 import org.monedu.view.main.MainPane;
 import org.springframework.stereotype.Component;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.Locale;
 import java.util.ResourceBundle;
@@ -20,12 +22,17 @@ import java.util.ResourceBundle;
 @FxmlView
 public class MenuBar implements Initializable
 {
-    public Menu languageMenu;
+    public Menu languageMenu, help;
 
     @FXML
     private void exit(ActionEvent event)
     {
         Platform.exit();
+    }
+    @FXML
+    private void help(ActionEvent event) throws IOException {
+        Main.getStageManager().rebuildStage(HelpPane.class);
+
     }
 
     @Override
