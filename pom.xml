@@ -16,7 +16,6 @@
         <spring-boot.version>3.0.1</spring-boot.version>
         <javafx-weaver-spring.version>1.3.0</javafx-weaver-spring.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <postgresql.version>42.2.5</postgresql.version>
     </properties>
 
     <dependencyManagement>
@@ -63,12 +62,6 @@
             </exclusions>
         </dependency>
 
-        <dependency>
-            <groupId>org.postgresql</groupId>
-            <artifactId>postgresql</artifactId>
-            <version>${postgresql.version}</version>
-            <scope>runtime</scope>
-        </dependency>
         <dependency>
             <groupId>com.mysql</groupId>
             <artifactId>mysql-connector-j</artifactId>
