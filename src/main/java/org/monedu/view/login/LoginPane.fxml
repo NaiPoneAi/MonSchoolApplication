@@ -10,7 +10,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 <AnchorPane stylesheets="@/styles/Styles.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
-            fx:controller="com.codetreatise.view.login.LoginPane">
+            fx:controller="org.monedu.view.login.LoginPane">
     <Rectangle fill="DODGERBLUE" height="250.0" stroke="#ffffff8b" strokeType="INSIDE" width="400.0"/>
     <Label fx:id="lblLogin" layoutX="97.0" layoutY="46.0" text="Login" textFill="WHITE">
         <font>

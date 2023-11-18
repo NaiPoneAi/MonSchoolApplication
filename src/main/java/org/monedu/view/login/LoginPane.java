@@ -1,7 +1,7 @@
-package com.codetreatise.view.login;
+package org.monedu.view.login;
 
 
-import com.codetreatise.view.FxController;
+import org.monedu.view.FxController;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
@@ -11,6 +11,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import net.rgielen.fxweaver.core.FxmlView;
+import org.monedu.view.login.LoginPaneManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 

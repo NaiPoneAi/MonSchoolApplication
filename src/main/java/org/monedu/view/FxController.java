@@ -1,2 +1,3 @@
-package org.monedu.view;public class FxController {
+package org.monedu.view;
+public interface FxController {
 }
