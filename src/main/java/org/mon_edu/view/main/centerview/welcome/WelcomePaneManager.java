@@ -1,4 +1,4 @@
-package org.mon_edu.view.main.centerview.welcome_pane;
+package org.mon_edu.view.main.centerview.welcome;
 
 import org.springframework.stereotype.Component;
 

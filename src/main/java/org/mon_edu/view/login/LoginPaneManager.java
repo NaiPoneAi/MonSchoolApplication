@@ -1,9 +1,8 @@
 package org.mon_edu.view.login;
 
 
-import org.mon_edu.service.UserService;
+import org.mon_edu.service.userservice.UserService;
 import org.mon_edu.view.StageManager;
-import org.mon_edu.view.main.centerview.welcome_pane.WelcomePane;
 import org.mon_edu.view.main.main_stage.MainPane;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;

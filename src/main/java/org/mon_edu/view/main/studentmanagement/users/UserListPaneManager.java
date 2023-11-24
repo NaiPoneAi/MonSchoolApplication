@@ -1,9 +1,9 @@
-package org.mon_edu.view.main.centerview.userlist_pane;
+package org.mon_edu.view.main.studentmanagement.users;
 
 import javafx.scene.control.Alert;
 import javafx.scene.control.ButtonType;
 import org.mon_edu.model.User;
-import org.mon_edu.service.UserServiceImpl;
+import org.mon_edu.service.userservice.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

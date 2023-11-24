@@ -1,8 +1,8 @@
-package org.mon_edu.view.main.leftview.userdetail_pane;
+package org.mon_edu.view.main.studentmanagement.userdetail_pane;
 
 import javafx.scene.control.*;
 import org.mon_edu.model.User;
-import org.mon_edu.service.UserServiceImpl;
+import org.mon_edu.service.userservice.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

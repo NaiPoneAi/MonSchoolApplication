@@ -1,4 +1,4 @@
-package org.mon_edu.service;
+package org.mon_edu.service.userservice;
 
 import org.mon_edu.model.User;
 

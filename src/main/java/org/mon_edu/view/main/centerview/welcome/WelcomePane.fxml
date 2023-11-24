@@ -7,14 +7,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<StackPane maxHeight="-Infinity"
-           maxWidth="-Infinity"
-           minHeight="-Infinity"
-           minWidth="-Infinity"
-           prefHeight="600.0" prefWidth="1250.0"
-           xmlns="http://javafx.com/javafx/21.0.1"
-           xmlns:fx="http://javafx.com/fxml/1"
-           fx:controller="org.mon_edu.view.main.centerview.welcome_pane.WelcomePane" >
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1250.0" xmlns="http://javafx.com/javafx/21.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.mon_edu.view.main.centerview.welcome.WelcomePane">
    <children>
       <Pane prefHeight="200.0" prefWidth="200.0">
          <children>
@@ -24,7 +17,12 @@
                      <font>
                         <Font name="System Bold" size="14.0" />
                      </font></Button>
-                  <Button layoutX="15.0" layoutY="10.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="190.0" text="Student Management">
+                  <Button layoutX="15.0" layoutY="10.0" mnemonicParsing="false" onAction="#btn_stuOnClick" prefHeight="50.0" prefWidth="190.0" text="Student Management">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="15.0" layoutY="60.0" mnemonicParsing="false" onAction="#btn_stuOnClick" prefHeight="50.0" prefWidth="190.0" text="Employee Management">
                      <font>
                         <Font name="System Bold" size="14.0" />
                      </font>

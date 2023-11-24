@@ -1,7 +1,9 @@
-package org.mon_edu.service;
+package org.mon_edu.service.userservice;
 
 import org.mon_edu.model.User;
 import org.mon_edu.repository.UserRepository;
+import org.mon_edu.service.CrudService;
+import org.mon_edu.service.userservice.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

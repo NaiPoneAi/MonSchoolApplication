@@ -1,4 +1,4 @@
-package org.mon_edu.view.main.centerview.userlist_pane;
+package org.mon_edu.view.main.studentmanagement.users;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -14,7 +14,7 @@ import net.rgielen.fxweaver.core.FxmlView;
 import org.mon_edu.model.User;
 import org.mon_edu.view.StageManager;
 import org.mon_edu.view.login.LoginPane;
-import org.mon_edu.view.main.leftview.userdetail_pane.UserDetailPaneManager;
+import org.mon_edu.view.main.studentmanagement.userdetail_pane.UserDetailPaneManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Controller;
