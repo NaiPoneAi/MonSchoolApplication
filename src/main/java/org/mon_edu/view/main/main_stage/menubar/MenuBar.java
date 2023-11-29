@@ -1,4 +1,4 @@
-package org.mon_edu.view.main.menubar;
+package org.mon_edu.view.main.main_stage.menubar;
 
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
@@ -10,7 +10,7 @@ import net.rgielen.fxweaver.core.FxmlView;
 import org.mon_edu.Main;
 import org.mon_edu.view.ResourceBundleUtil;
 import org.mon_edu.view.main.main_stage.MainPane;
-import org.mon_edu.view.main.main_stage_adduser.MainPane2;
+import org.mon_edu.view.main.studentmanagement.user_view.MainPane2;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;

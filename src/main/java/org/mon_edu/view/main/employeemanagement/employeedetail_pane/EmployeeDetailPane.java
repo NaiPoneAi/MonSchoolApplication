@@ -7,6 +7,8 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import net.rgielen.fxweaver.core.FxmlView;
 import org.mon_edu.view.FxController;
+import org.mon_edu.view.main.employeemanagement.employees.EmployeeListPane;
+import org.mon_edu.view.main.employeemanagement.employees.EmployeeListPaneManager;
 import org.mon_edu.view.main.studentmanagement.userdetail_pane.UserDetailPaneManager;
 import org.mon_edu.view.main.studentmanagement.users.UserListPaneManager;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,10 +23,10 @@ import java.util.ResourceBundle;
 public class EmployeeDetailPane implements Initializable, FxController
 {
     @Autowired
-    private UserDetailPaneManager userDetailPaneManager;
+    private EmployeeDetailPaneManager employeeDetailPaneManager;
 
     @Autowired
-    private UserListPaneManager userListPaneManager;
+    private EmployeeListPaneManager employeeListPaneManager;
 
     private ObservableList<String> roles = FXCollections.observableArrayList("Admin", "User");
 
@@ -76,11 +78,11 @@ public class EmployeeDetailPane implements Initializable, FxController
     {
         cbRole.setItems(roles);
 
-        reset.setOnAction(event -> userDetailPaneManager.clearFields());
+        reset.setOnAction(event -> employeeDetailPaneManager.clearFields());
         saveUser.setOnAction(event ->
         {
-            userDetailPaneManager.saveUser();
-            userListPaneManager.loadUserDetails();
+            employeeDetailPaneManager.saveUser();
+            employeeListPaneManager.loadUserDetails();
         });
     }
 

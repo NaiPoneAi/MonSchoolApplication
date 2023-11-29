@@ -1,4 +1,4 @@
-package org.mon_edu.view.main.main_stage_adduser;
+package org.mon_edu.view.main.studentmanagement.user_view;
 
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -8,7 +8,7 @@ import org.mon_edu.view.FxController;
 import org.mon_edu.view.StageManager;
 import org.mon_edu.view.main.studentmanagement.users.UserListPane;
 import org.mon_edu.view.main.studentmanagement.userdetail_pane.UserDetailPane;
-import org.mon_edu.view.main.menubar.MenuBar;
+import org.mon_edu.view.main.main_stage.menubar.MenuBar;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Controller;

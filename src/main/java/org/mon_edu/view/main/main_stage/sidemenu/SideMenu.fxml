@@ -4,7 +4,7 @@
 <?import javafx.scene.layout.VBox?>
 
 
-<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/21.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.mon_edu.view.main.leftview.sidemenu.SideMenu">
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/21.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.mon_edu.view.main.main_stage.sidemenu.SideMenu">
    <children>
       <Button fx:id="btnSide_home" onAction="#homeClicked" layoutX="10.0" layoutY="85.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" text="Home" />
       <Button fx:id="btnSide_registration" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" text="Registration" />

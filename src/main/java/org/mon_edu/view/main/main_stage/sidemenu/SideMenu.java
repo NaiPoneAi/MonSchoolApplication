@@ -1,4 +1,4 @@
-package org.mon_edu.view.main.leftview.sidemenu;
+package org.mon_edu.view.main.main_stage.sidemenu;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -6,7 +6,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import net.rgielen.fxweaver.core.FxmlView;
 import org.mon_edu.Main;
-import org.mon_edu.view.main.main_stage_adduser.MainPane2;
+import org.mon_edu.view.main.studentmanagement.user_view.MainPane2;
 import org.springframework.stereotype.Controller;
 
 import java.net.URL;

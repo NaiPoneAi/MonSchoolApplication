@@ -7,7 +7,9 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1250.0" xmlns="http://javafx.com/javafx/21.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.mon_edu.view.main.centerview.welcome.WelcomePane">
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1250.0" xmlns="http://javafx.com/javafx/21.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.mon_edu.view.main.main_stage.welcome_view.WelcomePane">
    <children>
       <Pane prefHeight="200.0" prefWidth="200.0">
          <children>
@@ -22,7 +24,7 @@
                         <Font name="System Bold" size="14.0" />
                      </font>
                   </Button>
-                  <Button layoutX="15.0" layoutY="60.0" mnemonicParsing="false" onAction="#btn_stuOnClick" prefHeight="50.0" prefWidth="190.0" text="Employee Management">
+                  <Button layoutX="15.0" layoutY="60.0" mnemonicParsing="false" onAction="#btn_empOnClick" prefHeight="50.0" prefWidth="190.0" text="Employee Management">
                      <font>
                         <Font name="System Bold" size="14.0" />
                      </font>
@@ -61,4 +63,4 @@
          </children>
       </Pane>
    </children>
-</StackPane>
+</AnchorPane>
