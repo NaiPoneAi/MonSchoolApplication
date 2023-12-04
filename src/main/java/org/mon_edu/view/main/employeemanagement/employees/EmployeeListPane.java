@@ -16,6 +16,8 @@ import org.mon_edu.model.User;
 import org.mon_edu.view.StageManager;
 import org.mon_edu.view.login.LoginPane;
 import org.mon_edu.view.main.employeemanagement.employeedetail_pane.EmployeeDetailPaneManager;
+import org.mon_edu.view.main.main_stage.MainPane;
+import org.mon_edu.view.main.main_stage.welcome_view.WelcomePane;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Controller;
@@ -73,7 +75,7 @@ public class EmployeeListPane implements Initializable {
         colEmail.setCellValueFactory(new PropertyValueFactory<>("email"));
         colEdit.setCellFactory(new TableColumnTableCellCallback());
         employeeListPaneManager.loadUserDetails();
-        btnLogout.setOnAction(event -> stageManager.rebuildStage(LoginPane.class));
+        btnLogout.setOnAction(event -> stageManager.rebuildStage(MainPane.class));
         deleteUsers.setOnAction(event -> employeeListPaneManager.deleteEmployee());
 
     }

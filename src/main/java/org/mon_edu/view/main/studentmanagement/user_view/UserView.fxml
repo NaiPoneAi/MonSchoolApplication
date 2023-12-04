@@ -7,6 +7,6 @@
             prefHeight="600.0" prefWidth="1050.0"
             xmlns="http://javafx.com/javafx/17.0.2-ea"
             xmlns:fx="http://javafx.com/fxml/1"
-            fx:controller="org.mon_edu.view.main.studentmanagement.user_view.MainPane2">
+            fx:controller="org.mon_edu.view.main.studentmanagement.user_view.UserView">
 
 </BorderPane>

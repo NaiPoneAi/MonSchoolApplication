@@ -14,6 +14,8 @@ import net.rgielen.fxweaver.core.FxmlView;
 import org.mon_edu.model.User;
 import org.mon_edu.view.StageManager;
 import org.mon_edu.view.login.LoginPane;
+import org.mon_edu.view.main.main_stage.MainPane;
+import org.mon_edu.view.main.main_stage.welcome_view.WelcomePane;
 import org.mon_edu.view.main.studentmanagement.userdetail_pane.UserDetailPaneManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
@@ -84,7 +86,7 @@ public class UserListPane implements Initializable
         // Add all users into table
         userListPaneManager.loadUserDetails();
 
-        btnLogout.setOnAction(event -> stageManager.rebuildStage(LoginPane.class));
+        btnLogout.setOnAction(event -> stageManager.rebuildStage(MainPane.class));
         deleteUsers.setOnAction(event -> userListPaneManager.deleteUsers());
 
         // set layout

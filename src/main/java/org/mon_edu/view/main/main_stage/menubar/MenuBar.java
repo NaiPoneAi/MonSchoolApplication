@@ -10,7 +10,7 @@ import net.rgielen.fxweaver.core.FxmlView;
 import org.mon_edu.Main;
 import org.mon_edu.view.ResourceBundleUtil;
 import org.mon_edu.view.main.main_stage.MainPane;
-import org.mon_edu.view.main.studentmanagement.user_view.MainPane2;
+import org.mon_edu.view.main.studentmanagement.user_view.UserView;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
@@ -31,7 +31,7 @@ public class MenuBar implements Initializable
     }
     @FXML
     private void help(ActionEvent event) throws IOException {
-        Main.getStageManager().rebuildStage(MainPane2.class);
+        Main.getStageManager().rebuildStage(UserView.class);
     }
 
     @Override

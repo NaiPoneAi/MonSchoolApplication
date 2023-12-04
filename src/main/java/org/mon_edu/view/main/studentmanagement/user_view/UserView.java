@@ -18,7 +18,7 @@ import java.util.ResourceBundle;
 
 @Controller
 @FxmlView
-public class MainPane2 implements Initializable, FxController {
+public class UserView implements Initializable, FxController {
     @Lazy
     @Autowired
     private StageManager stageManager;
